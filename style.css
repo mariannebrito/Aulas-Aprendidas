@@ -1,0 +1,126 @@
+body {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.foto {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.intro-content {
+    background-color:#0f0e0f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    padding: 30px;
+}
+
+h1{
+    color: #ece6e6;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+}
+
+h2,h3{
+    color: #565656;
+    font-size: 15px;
+    font-family: inherit;
+    text-align: center;
+}
+
+h4{
+    color: #181717;
+    font-family: 'Roboto Mono', monospace;;
+    text-align: justify;
+    height: 20px;
+    padding: 10px;
+}
+
+.conteudo {
+    /*display: flex;*/
+    margin: 0 auto; 
+    color: rgb(14, 13, 13);
+    background-color:rgba(50, 192, 202, 0.137);
+    display: flex;
+    align-items: center;
+    margin:10px;
+    
+}
+
+.descricao {
+    font-size: 16px;
+    line-height: 22px;
+    color: #696868;
+    font-weight: 700;
+
+}
+
+#contato {
+    background-color: #8e8ae4;
+    padding-left: 30px;
+    padding-top: 44px;
+    padding-bottom:41px;
+    padding-right:69px;
+    display: flex;
+    justify-content: space-between;
+}
+    /*text-align: center; */
+
+#contato a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.card {
+        background-color: rgba(75, 40, 88, 0.062);
+        display: flex;
+        border-radius: 32px;
+        justify-content: center;
+        align-items: inherit;
+        margin: 30px;
+        list-style: disc;
+        text-align: initial;
+}
+    
+
+.card .right-side{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.card-trilha{
+    background-color: rgba(75, 40, 88, 0.062);
+    margin: 60px;
+}
+
+.subtitle {
+    color: #181717;
+    background-color:#9a1a9e31;
+    font-size: 20px;
+    }
+
+.title {
+    color: #181717;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+footer.dark {
+    padding: 8px;
+    margin: auto;
+    background-color:black;
+    text-align:center;
+    color:white;
+    
+}
